@@ -22,8 +22,8 @@ export default function SignUp() {
     return (
         <div className="SignIn_SignUp">
             <Welcome 
-                h1="Welcome to Facebook Messenger Clone" 
-                h3="Made by David Agasiev" 
+                h1="Radon Development Network" 
+                h3="Made by Vansh" 
                 style={{paddingTop: "50px"}} />
             <div className="sign_nav">
                 <NavLink to="/User/SignUp" activeClassName="activeSite">Sign Up</NavLink>
@@ -41,13 +41,7 @@ export default function SignUp() {
                 
                 <Button variant="contained" color="primary" type="submit">Sign Up</Button>
             </form>
-            <div className="quick_access">
-                <p>Quick access with</p>
-                <div>
-                    <button className="signIn_with" style={{backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBNqj_BACxuoGE7co2RFznug8f_xcjNR0Lng&usqp=CAU)"}} onClick={() => signInWithGoogle(users)}></button>
-                    <button className="signIn_with" style={{backgroundImage: "url(https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19754.png)"}} onClick={() => signInWithFacebook(users)}></button>
-                </div>
-            </div>
+            
         </div>
     )
 }

@@ -42,7 +42,7 @@ export default function SignIn() {
                 <Button variant="contained" color="primary" type="submit">Sign In</Button>
             </form>
            
-            </div>
+            
         </div>
     )
 }

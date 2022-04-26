@@ -16,7 +16,7 @@ export default function Welcome(props) {
                 </div>
                 : 
                     <>
-                        <img src={props.type === "group" ? props.src : Logo} alt="Messenger Logo"/>
+                        <img src={props.type === "group" ? props.src : "https://media.discordapp.net/attachments/923588148255162408/954775997331411043/IMG_20220111_194358.jpg?width=528&height=564"} alt="Radon"/>
                         <h1>{props.h1}</h1>
                         <h3>{props.h3}</h3>
                     </>
